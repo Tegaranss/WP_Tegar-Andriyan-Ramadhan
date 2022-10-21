@@ -6,12 +6,12 @@
 
 <body>
     <center>
-        <form action="<?= base_url('matakuliah/cetak'); ?>"
+        <form action="<?= base_url('mahasiswa/cetak'); ?>"
 method="post">
             <table>
                 <tr>
                     <th colspan="3">
-                        Form Input Data Mata Kuliah
+                        LOGIN
                     </th>
                 </tr>
                 <tr>
@@ -19,28 +19,27 @@ method="post">
                         <hr>
                     </td>
                 </tr>
-                    <th>Kode MTK</th>
+                    <th>User ID</th>
                     <th>:</th>
                     <td>
                         <input type="text" name="kode" id="kode">
                     </td>
                 </tr>
                 <tr>
-                    <th>Nama MTK</th>
+                    <th>Password</th>
                     <td>:</td>
                     <td>
                         <input type="text" name="nama" id="nama">
                     </td>
                 </tr>
                 <tr>
-                    <th>SKS</th>
+                    <th>Mahasiswa/Dosen</th>
                     <td>:</td>
                     <td>
                         <select name="sks" id="sks">
-                            <option value="">Pilih SKS</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
+                            <option value="">PILIH</option>
+                            <option value="2">Mahasiswa</option>
+                            <option value="3">Dosen</option>
                         </select>
                     </td>
                 </tr>

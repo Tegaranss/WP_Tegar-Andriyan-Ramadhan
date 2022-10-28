@@ -19,7 +19,7 @@
             box-shadow: -5px 5px 5px rgba(0, 0,0,0.5);
         }
         body{
-            background-color: orange;
+            background-color: cyan;
         }
         .footer{
             text-align: center;

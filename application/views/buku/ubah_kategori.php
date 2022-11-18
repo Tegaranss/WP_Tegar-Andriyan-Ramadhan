@@ -17,7 +17,7 @@
                         <input type="button" class="form-control form-control-user btn btn-dark col-lg-3 mt-3" value="Kembali" onclick="window.history.go(-1)">
                         <input type="submit" class="form-control form-control-user btn btn-primary col-lg-3 mt-3" value="Update">
                     </div>
-                </form>
+            </form>
             <?php } ?>
         </div>
     </div>

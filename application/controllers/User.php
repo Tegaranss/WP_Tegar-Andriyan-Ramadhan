@@ -52,8 +52,8 @@ if ($this->form_validation->run() == false) {
     $config['upload_path'] = './assets/img/profile/';
     $config['allowed_types'] = 'gif|jpg|png';
     $config['max_size'] = '3000';
-    $config['max_width'] = '1024';
-    $config['max_height'] = '1000';
+    $config['max_width'] = '10240';
+    $config['max_height'] = '10000';
     $config['file_name'] = 'pro' . time();
     $this->load->library('upload', $config);
     if ($this->upload->do_upload('image')) {
